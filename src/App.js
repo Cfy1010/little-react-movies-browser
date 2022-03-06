@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import AboutView from './components/About';
+import SearchView from './components/SearchView'
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='about' element={<AboutView />} />
+        <Route path='search' element={<SearchView />} />
       </Routes>
     </div>
   );
