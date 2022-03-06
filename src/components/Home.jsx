@@ -1,7 +1,10 @@
+import Hero from "./Hero";
+
+
 const Home = () => {
   return (
     <div>
-      <h1>hello world de React</h1>
+      <Hero text="Bienvenue à Browser Movie"/>
     </div>
   );
 };
